@@ -1,0 +1,9 @@
+*{
+  box-sizing: border-box;
+}
+#app{
+  width: 100%;
+}
+.message-wrapper::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
