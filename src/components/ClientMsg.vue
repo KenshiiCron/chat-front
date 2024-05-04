@@ -4,11 +4,11 @@ const clientText = props.text;
 </script>
 
 <template lang="">
-  <div class="p-1.5 max-w-5xl flex justify-end">
+  <div class="p-1.5 flex justify-end ml-40">
     <div>
-      <h3 class="text-purple-700 font-poppins font-medium ml-2">You</h3>
-      <div class="bg-purple-700 p-2 max-w-fit font-montserrat rounded-xl">
-        <p>{{ clientText }}</p>
+      <h3 class="text-purple-700 font-poppins font-medium ml-2 text-right">You</h3>
+      <div class="bg-purple-700 p-2 font-montserrat rounded-xl ">
+        <p class = 'break-words'>{{ clientText }}</p>
       </div>
     </div>
     <div class="flex items-end ml-3">

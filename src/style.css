@@ -7,3 +7,13 @@
 .message-wrapper::-webkit-scrollbar {
   display: none; /* for Chrome, Safari, and Opera */
 }
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 20px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 3px solid;
+  border-color: white #0000;
+  animation: l1 1s infinite;
+}
+@keyframes l1 {to{transform: rotate(.5turn)}}
