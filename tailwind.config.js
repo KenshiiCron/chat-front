@@ -6,7 +6,12 @@ export default {
     container: {
       center: true,
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: ['Poppins'],
+        montserrat:['Montserrat'],
+      },
+    },
   },
   plugins: [],
 };
